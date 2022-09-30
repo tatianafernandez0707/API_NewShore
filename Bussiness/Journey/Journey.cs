@@ -51,6 +51,7 @@ namespace Bussiness.Journey
                     for (int i = 0; i < consultRoute.Count; i++)
                     {
                         tbJourney.IdJourney = consultRoute[i].IdJourney;
+                        tbJourney.Origin = consultRoute[i].Origin;
                     }
                 }
 
